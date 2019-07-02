@@ -9,10 +9,4 @@ public class PositionTest : MonoBehaviour
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
