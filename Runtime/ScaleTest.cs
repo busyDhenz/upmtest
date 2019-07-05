@@ -2,11 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ScaleTest : MonoBehaviour
+namespace sample.upm.test
 {
-    // Start is called before the first frame update
-    void Start()
+    public class ScaleTest : MonoBehaviour
     {
-        
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
     }
 }
