@@ -1,11 +1,6 @@
 {
     "name": "git-unity-package-test",
     "displayName": "Unity Package Test",
-    "repoPackagePath": "com.s88.upmsource", 
-    "repository": {
-        "type": "git", 
-        "url": "https://github.com/busyDhenz/upmtest.git"
-    },
     "version": "0.0.2",
     "unity": "2018.4",
     "author": "test",
