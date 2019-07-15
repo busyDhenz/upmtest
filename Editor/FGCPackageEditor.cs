@@ -1,4 +1,6 @@
-﻿using UnityEditor;
+﻿using System.IO;
+using Groundwork.Core.FileSystem;
+using UnityEditor;
 using UnityEngine;
 
 public class FGCPackageEditor : EditorWindow
@@ -21,7 +23,8 @@ public class FGCPackageEditor : EditorWindow
         var file = MonoScript.FromScriptableObject(this);
         var dir = AssetDatabase.GetAssetPath(file);
         var path = Application.dataPath;
-        Debug.LogError(path+dir);
+        var dirMod = $"{dir}/../";
+        Debug.LogError(dirMod);
     }
 
 }
