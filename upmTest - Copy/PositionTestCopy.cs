@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace sample.upm.test
 {
-    public class PositionTest : MonoBehaviour
+    public class PositionTestCopy : MonoBehaviour
     {
         // Start is called before the first frame update
         void Start()
