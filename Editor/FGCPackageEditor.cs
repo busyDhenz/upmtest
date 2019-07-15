@@ -1,6 +1,4 @@
-﻿using System.IO;
-using Groundwork.Core.FileSystem;
-using UnityEditor;
+﻿using UnityEditor;
 using UnityEngine;
 
 public class FGCPackageEditor : EditorWindow
